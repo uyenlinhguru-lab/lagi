@@ -1,0 +1,7 @@
+{
+  "name": "Lagi City Land - Hệ Thống Chấm Điểm Thí Sinh",
+  "description": "Ứng dụng chấm điểm chuyên nghiệp cho cuộc thi 'Lagi City Land & Tôi' với cơ cấu điểm chuẩn hóa 100 điểm cho Video, Bài viết và Bài hát.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
