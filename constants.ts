@@ -10,9 +10,9 @@ export const MAX_SCORES = {
     compliance: 10
   },
   social: {
-    like: 8,      // Mới: tối đa 8đ
-    share: 6,     // Mới: tối đa 6đ
-    comment: 7    // Mới: tối đa 7đ
+    like: 8,      // 1đ/25 lượt, tối đa 8đ (tương đương 200 lượt)
+    share: 5,     // 1đ/25 lượt, tối đa 5đ (tương đương 125 lượt)
+    comment: 7    // 1đ/10 lượt, tối đa 7đ (tương đương 70 lượt)
   },
   specific: {
     criteria1: 8,
@@ -21,11 +21,10 @@ export const MAX_SCORES = {
   }
 };
 
-// Định mức quy đổi mới
 export const SOCIAL_EXCHANGE_RATES = {
-  like: 25,    // 25 likes = 1đ (Tối đa 200 lượt = 8đ)
-  share: 25,   // 25 shares = 1đ (Tối đa 150 lượt = 6đ)
-  comment: 10  // 10 comments = 1đ (Tối đa 70 lượt = 7đ)
+  like: 25,    
+  share: 25,   
+  comment: 10  
 };
 
 export const SPECIFIC_CRITERIA_LABELS: Record<CategoryType, { c1: string, c2: string, c3: string }> = {
